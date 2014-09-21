@@ -6,5 +6,5 @@ foo: foo.c gen.h
 bar: bar.c
 	gcc -o bar bar.c
 
-gen.h:
-	sleep 0.1 && echo 'char* my_string = "hello";' > gen.h
+gen.h: generate.sh
+	./generate.sh
