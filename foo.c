@@ -2,6 +2,7 @@
 
 #include "gen.h"
 
-void main() {
-  printf("foo\n");
+int main() {
+  printf("foo %s\n", my_string);
+  return 0;
 }
