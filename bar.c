@@ -2,6 +2,6 @@
 
 #include "gen.h"
 
-void bar() {
+void main() {
   printf("bar\n");
 }

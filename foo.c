@@ -2,6 +2,6 @@
 
 #include "gen.h"
 
-void foo() {
+void main() {
   printf("foo\n");
 }
